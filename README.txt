@@ -1,2 +1,7 @@
 a simple app to discover Algiers (Hotels,Parks,Beaches,Museums..) clone and  build ( google maps dependency added)
 or you can download it from google play using the link (https://play.google.com/store/apps/details?id=com.guide.alger.nabilsoft.alger)
+![img](https://user-images.githubusercontent.com/50035033/154105640-939e698d-1141-4b84-9200-f1e613963846.JPEG)
+![img3](https://user-images.githubusercontent.com/50035033/154105641-9e546988-9bbe-43d0-85da-5a874e5a31a9.jpg)
+![img4](https://user-images.githubusercontent.com/50035033/154105644-e12d6633-9ae8-4775-9c98-0515d49d43b6.jpg)
+![img5](https://user-images.githubusercontent.com/50035033/154105646-184a570e-a6fd-4429-bbb8-23469d728075.jpg)
+![img6](https://user-images.githubusercontent.com/50035033/154105647-44f0e58f-4ce2-4d4e-9a6d-ad12c28c9b98.jpg)
