@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffffff" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4fa7a0"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="La List Des Centres Commerciaux"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="18sp" />
+
+        <ListView
+            android:id="@+id/listView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

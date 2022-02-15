@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="#ffffff"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent"  android:layout_width="match_parent"  android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:background="#566270" android:text="La List Des Banques" android:padding="10dp"
+        android:id="@+id/list_tb" android:gravity="center" android:textColor="#ffffff" android:textSize="18sp"/>
+
+    <ListView android:layout_height="match_parent"  android:layout_width="match_parent"
+        android:id="@+id/listView4" android:layout_weight="1"/>
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

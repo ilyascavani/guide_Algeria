@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guide.alger.nabilsoft.alger">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Guide">
+        <activity
+            android:name=".about"
+            android:exported="true" />
+        <activity
+            android:name=".aff_assurance"
+            android:exported="true" />
+        <activity
+            android:name=".list_a"
+            android:exported="true" />
+        <activity
+            android:name=".list_assurance"
+            android:exported="true" />
+        <activity
+            android:name=".list_Tbanque"
+            android:exported="true" />
+        <activity
+            android:name=".list_AAbanque"
+            android:exported="true" />
+        <activity
+            android:name=".aff_banque"
+            android:exported="true" />
+        <activity
+            android:name=".list_banque"
+            android:exported="true" />
+        <activity
+            android:name=".aff_th"
+            android:exported="true" />
+        <activity
+            android:name=".list_th"
+            android:exported="true" />
+        <activity
+            android:name=".list_pp"
+            android:exported="true" />
+        <activity
+            android:name=".aff_hopital"
+            android:exported="true" />
+        <activity
+            android:name=".list_hopital"
+            android:exported="true" />
+        <activity
+            android:name=".aff_cinema"
+            android:exported="true" />
+        <activity
+            android:name=".list_cinema"
+            android:exported="true" />
+        <activity
+            android:name=".aff_musee"
+            android:exported="true" />
+        <activity
+            android:name=".list_musee"
+            android:exported="true" />
+        <activity
+            android:name=".Aff_parc"
+            android:exported="true" />
+        <activity
+            android:name=".list_parc"
+            android:exported="true" />
+        <activity
+            android:name=".aff_plage"
+            android:exported="true" />
+        <activity
+            android:name=".list_plage"
+            android:exported="true" />
+        <activity
+            android:name=".aff_resto"
+            android:exported="true" />
+        <activity
+            android:name=".list_resto"
+            android:exported="true" />
+        <activity
+            android:name=".aff_hotel"
+            android:exported="true" />
+        <activity
+            android:name=".list_ht"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Showmapss"
+            android:label="@string/title_activity_showmapss" />
+
+        <meta-data
+            android:name="com.google.android.geo.KEY_API"
+            android:value="@string/map_Key" />
+
+        <activity android:name=".aff_centre" />
+        <activity android:name=".list_centre" />
+        <activity android:name=".list_hotel" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

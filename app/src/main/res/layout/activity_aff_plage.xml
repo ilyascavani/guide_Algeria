@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffffff" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" >
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="150dp" android:layout_width="match_parent" android:id="@+id/plagimg"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#30a9de"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/plagename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="20dp" />
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/plagdesc" android:text="New Text" android:textColor="#000" android:paddingBottom="15dp" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingLeft="25dp" android:gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/plgbtn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bac7"
+                android:drawableLeft="@drawable/btn_position"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="voir sur map"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+</RelativeLayout>

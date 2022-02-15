@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:background="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+
+
+                android:drawableTop="@drawable/hotel"
+                android:text="Hotel"
+                android:textColor="#000"
+                 />
+
+            <Button
+                android:id="@+id/btn2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+
+                android:drawableTop="@drawable/restaurant"
+                android:drawablePadding="8dp"
+                android:text="Restaurant"
+                android:textColor="#000"
+                 />
+
+            <Button
+                android:id="@+id/btn3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:drawableTop="@drawable/plage"
+                android:text="plage"
+                android:textColor="#000"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/parc"
+                android:text="Parc"
+                android:textColor="@color/black"
+                 />
+
+            <Button
+                android:id="@+id/btn5"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/musees"
+                android:text="musées"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/cinema"
+                android:text="cinema"
+                android:textColor="@color/black"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/musees"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/shop"
+                android:text="commerce"
+                android:textColor="@color/black"
+               />
+
+            <Button
+                android:id="@+id/btn8"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/sante"
+                android:text="santé"
+                android:textColor="@color/black"
+                 />
+
+            <Button
+                android:id="@+id/btn9"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/theather"
+                android:text="theather"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/plage"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn10"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/banque"
+                android:text="Banque"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn11"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/assurance"
+                android:text="Assurance"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn12"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/about"
+                android:text="à propos"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

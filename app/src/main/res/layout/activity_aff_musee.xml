@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffffff" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" >
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="150dp" android:layout_width="match_parent"
+        android:id="@+id/imagemusee" android:visibility="invisible"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#77aaad" android:orientation="vertical" android:padding="15dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/namemusee" android:textIsSelectable="false" android:text="New Text" android:textColor="#ffffff" android:textSize="20sp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:padding="15dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/descmusee" android:text="New Text" android:textColor="#000" android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginBottom="15dp" android:layout_marginRight="5dp" android:layout_marginTop="15dp" android:layout_marginLeft="23dp">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/localisation" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/adrmusee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginRight="5dp" android:layout_marginLeft="25dp">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/fixe" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/telmusee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:orientation="horizontal" android:layout_marginBottom="15dp" android:layout_marginRight="5dp" android:layout_marginTop="15dp" android:layout_marginLeft="25dp">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/fax" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/faxmusee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:orientation="horizontal" android:layout_marginRight="5dp" android:layout_marginLeft="25dp">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/mail2" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/mailmusee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:orientation="horizontal" android:layout_marginBottom="15dp" android:layout_marginRight="5dp" android:layout_marginTop="15dp" android:layout_marginLeft="25dp">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/website" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/sitmusee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+        android:orientation="horizontal" android:layout_marginBottom="15dp" android:layout_marginRight="5dp" android:layout_marginLeft="25dp">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/ouver_musee" android:text="New Text" android:textColor="#000" android:layout_marginLeft="25dp"/>
+
+</LinearLayout>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" />
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:padding="15dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/tarif_musee" android:text="Les Tarifs :" android:textColor="#000"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/prmusee"
+        android:text="New Text" android:textColor="#000" android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line" />
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:orientation="vertical" android:gravity="center" android:layout_marginBottom="10dp" android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/button20"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bac7"
+            android:drawableLeft="@drawable/btn_position"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="voir sur map"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+</RelativeLayout>

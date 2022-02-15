@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+    android:layout_width="match_parent" android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/alger_nuit" />
+
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#30a9de"
+                    android:divider="#58c9b9" />
+
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/iicon" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginRight="12dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView50"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="8dp"
+                                        android:text="Alger city guide touristique "
+                                        android:textColor="#30a9de"
+                                        android:textSize="18dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView60"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text=" c'est une application du tourisme offre toutes les informations nécessaires pour un voyageurs à la ville d'Alger (ou dormir, ou manger, ou sortir….. etc.)."
+                                        android:textColor="#000"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold" />
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginRight="20dp"
+                                        android:background="@drawable/separator" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textView10"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_weight="1"
+                                            android:text="Protection Des Données Personnelles"
+                                            android:textColor="#000"
+                                            android:textSize="14dp"
+                                            android:textStyle="bold" />
+
+                                        <ImageButton
+                                            android:id="@+id/imageButton"
+                                            android:layout_width="28dp"
+                                            android:layout_height="28dp"
+                                            android:layout_weight="2"
+                                            android:background="@drawable/ic_edit" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:background="@drawable/separator" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textView9"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_weight="1"
+                                            android:text="Evaluez l'application si tu veux"
+                                            android:textColor="#000"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageButton
+                                            android:id="@+id/imageButton2"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:background="@drawable/starrrr"
+                                            tools:ignore="TouchTargetSizeCheck" />
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </ScrollView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="La légende raconte qu'il y a de cela très longtemps 20 compagnons du héros Hercule navigué dans la baie d'Alger et décidèrent de s'installer. Les Phéniciens utilisèrent Alger comme un relais entre Carthage dans l'Est et les colonnes d'Hercule à l'ouest. Pendant de nombreux siècles Alger était un ancrage pratique disputée des grandes puissances - les Romains l'ont pris en 146 avant JC et la nommèrent Icosium, les Vandales dans le 5ème siècle après JC, au 6e siècle les Byzantins l'ont repris et développé une petite communauté chrétienne, et en 650 Alger devînt désormais sous contrôle arabe. Jusqu'au 10ème siècle la ville resta insignifiante jusqu'a que le chef des berbères Bologhin ibn Ziri pris le contrôle de la région dans les années 970, après que les Fatimides ont déplacé leur capitale de Mahdia (Tunisie) au Caire, Ibn Ziri nomma la ville El-Djezaïr, comme elle est encore appelée aujourd'hui. Les sultans de Tlemcen, Fès et d'ailleurs ont toujours assuré qu'ils avaient le contrôle du port d'Alger, qui ne comptait qu'une importance stratégique locale. Tout cela a changé dans le 16ème siècle, quand les grandes puissances de la Méditerranée, les Espagnols, les Français, les Vénitiens, les Génois et les Ottomans, se sont battus pour le contrôle des mers. En 1510, les Espagnols prirent le controle d'Alger, mais huit ans plus tard, les habitants se sont déclarés sujets du sultan ottoman et ont appeler les pirates grecs, Aroudj et son jeune frère Kheireddin Barberousse pour les protéger. Après que Aroudj fut tué en combattant les Espagnols, Barberousse continua le combat et il vaincu finalement les Espagnols pourtant largement plus puissant en 1529, ainsi il établit la régence d'Alger. A la suite de cela il fût promus amiral de la marine ottomane. Barberousse a batît le port avec son bras protecteur, terminées par un phare, les maisons de la Casbah blottis en pente de la colline, l'affût et des fortifications sur la colline où la citadelle se dresse maintenant. Le site était idéal, l'endroit bien planifié et pendant 300 ans, El-Djezaïr resta une base méditerranéenne pirates que même la puissante marine britannique s'est montré incapable de détruire. Sous Mohamed ben Khodja Osmane, Dey de 1766 à 1791, Alger prospéra dans une ville bien fortifiée de 100.000 habitants. Durant cette période la ville d'Alger est devenu très riche, elle exigea le tribut des navires de passage et gare à ceux qui refusaient de payer le prix: la marchandise du bateau était confisqué et les marins capturé et revendu en tant qu'esclave. C'est durant cette période que la plupart des bâtiments les plus intéressants de la ville d'Alger ont été construits. L'amiral britannique Nelson bombarda le port d'Alger en 1804, en espérant pouvoir mettre à fin à la piraterie et la traite des esclaves, cela n'a pas fonctionné. En 1815 ce fut au tour du commodore Decatur et de son escadron américain: ils ont capturé le porte-étendard algérien et contraint le dey d'Alger un accord pour mettre fin à la piraterie et à l'esclavage. Decatur a été surnommé le conquérant des pirates barbaresques . En août de l'année suivante, les Britanniques et un escadron hollandais ont été envoyés pour assurer la libération du consul britannique et plus de 1000 autres chrétiens captifs dans la ville. Le commandant des navires britanniques, l'amiral Pellew, bombarda la ville jusqu'a la soumission, et forca le dey d'abandonner son palais. La menace continue de la piraterie dans le sud de la Méditerranée a fourni un prétexte d'attaque à la France. Leur espoir était également de contrebalancer l'influence britannique dans la Méditerranée par le contrôle des détroits du sud de l'un des passages les plus étroits de la mer. Le 14 Juin 1830, une force de 37612 Français débarqua sur la plage de Sidi Ferruch, juste au nord de la ville. Les Français ont affirmé qu'ils n'avaient pas de plan initial visant à établir une colonie, mais en 1834 ils ont officiellement annexé une grande partie de l'Algérie du Nord, faisant d'Alger la capitale de leur nouvelle colonie. La ville a été reconstruite sous la domination française. La citadelle, avec sa position stratégique, a été renforcé pour assurer la sécurité et une grande zone de la basse Casbah a été démoli pour faire place à de nouvelles routes. Après l'empereur français Napoléon III et son épouse, l'impératrice Eugénie, a visité la ville en 1860, elle décida l'aménagement de la région au sud de la Casbah comme Ville Nouvelle, avec de larges boulevards et de grands bâtiments. Alger a été, dans les termes d'une ancienne colon passant au crible ses souvenirs, «l'une des plus belles villes françaises jamais construite auparavant». Alger est devenu une partie de la France métropolitaine, contrairement à d'autres villes sous contrôle français en Afrique du Nord, telles que Tunis et Casablanca, qui étaient de simple colonies. Lors de la Seconde Guerre mondiale, Alger devînt une ville d'importance stratégique avec l'établissement de la base de Charles de Gaulle et de son armée française libre ainsi que le siège des généraux américains et britanniques. Winston Churchill et le général Eisenhower ont été parmi les acteurs du pouvoir qui ont passé du temps à Alger de 1943 à la fin de la guerre. Lors de la guerre d'Indépendance, Alger a été plus calme que les autres villes du Nord, mais elle devînt à la fin des années 1950 l'épicentre d'une lutte de plus en plus active pour libérer le pays des colonisateurs qui a finalement abouti à l'indépendance en 1962. Désormais la ville d'Alger est une capitale moderne avec toutes les infrastructures de base et une jeunesse qui ne demandent qu'a vivre en paix."
+                                android:textColor="#000"
+                                android:textSize="14sp"
+                                android:textStyle="normal" />
+
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </TabHost>
+
+
+    
+
+</LinearLayout>
+
+</RelativeLayout>

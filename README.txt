@@ -1,0 +1,1 @@
+a simple app to clone and  build ( google maps dependency added)

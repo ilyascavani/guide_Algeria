@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffffff" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="80dp" android:layout_width="match_parent" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="0dp" android:layout_marginLeft="0dp" android:orientation="horizontal" android:gravity="center">
+
+    <ImageView android:layout_height="50dp" android:layout_width="50dp" android:background="@drawable/hotel" android:layout_marginLeft="3dp" android:layout_marginRight="8dp" android:clickable="false" android:visibility="visible" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="8dp" android:id="@+id/textView3" android:layout_weight="1" android:text="Hôtels 3 étoiles" android:textColor="#000" android:textStyle="normal" android:textSize="22sp" android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            style="@style/styelratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5" />
+
+</LinearLayout>
+
+</RelativeLayout>
